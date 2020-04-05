@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:todos/themes/app.theme.dart';
-import 'package:todos/views/home.view.dart';
 import 'package:todos/views/login.view.dart';
 
 void main() => runApp(MyApp());
@@ -11,9 +10,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'TODOApp Flutter',
       theme: appTheme(),
-      home: HomeView(),
+      home: LoginView(),
     );
   }
 }

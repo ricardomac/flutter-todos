@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "192277201578",
+    "firebase_url": "https://flutter-todos-ebd26.firebaseio.com",
+    "project_id": "flutter-todos-ebd26",
+    "storage_bucket": "flutter-todos-ebd26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192277201578:android:a16a50f07d51d8404e46d3",
+        "android_client_info": {
+          "package_name": "com.ricardomacedo.todo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192277201578-28m3ju3p95qn7k4vrpsjic42oi7a1cub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ricardomacedo.todo",
+            "certificate_hash": "c0270191cae685ba2b6b4044f188ba89189fa7c2"
+          }
+        },
+        {
+          "client_id": "192277201578-sgsgo4ni6n84o23f2qi900390sd4oroh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfEZyOnqKH7dKuB6gOuSb5Wf2Q98VjyDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192277201578-sgsgo4ni6n84o23f2qi900390sd4oroh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
