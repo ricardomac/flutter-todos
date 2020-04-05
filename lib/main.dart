@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:todos/components/avatar.widget.dart';
-import 'package:todos/components/button.widget.dart';
 import 'package:todos/themes/app.theme.dart';
+import 'package:todos/views/login.view.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,35 +12,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: appTheme(),
-      home: HomePage(),
-    );
-  }
-}
-
-class HomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Column(
-        children: <Widget>[
-          SizedBox(
-            height: 40,
-          ),
-          TDButton(
-            text: "Teste",
-            width: 300,
-            image: "assets/images/google.png",
-            callback: () {},
-          ),
-          SizedBox(
-            height: 40,
-          ),
-          TDAvatar(
-            path: "https://placehold.it/200",
-            width: 120,
-          )
-        ],
-      ),
+      home: LoginView(),
     );
   }
 }
